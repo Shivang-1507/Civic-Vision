@@ -1,0 +1,34 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dataset
+dataset/
+data/
+*.zip
+*.rar
+*.7z
+
+# YOLO weights and training outputs
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Generated results
+results/
+*.cache
+*.log
+
+# Secrets
+.env
+.env.*
+
+# IDE and operating system
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
